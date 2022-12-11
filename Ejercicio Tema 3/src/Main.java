@@ -5,9 +5,9 @@ public class Main {
         resultado = suma(3,3,3);
         System.out.println("El resultado de la suma es "+ resultado);
 
-        Coche nuevoCoche = new Coche();
-        nuevoCoche.AgregarPuerta();
-        System.out.println("La cantidad de puertas del coche es " + nuevoCoche.puertas);
+        Coche miCoche = new Coche();
+        miCoche.AgregarPuerta();
+        System.out.println("La cantidad de puertas del coche es " + miCoche.puertas);
 
     }
     public static int suma(int a,int b, int c){
